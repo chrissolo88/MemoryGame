@@ -1,0 +1,108 @@
+#game {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgb(240, 238, 238);
+    border: 3px solid black;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url(https://www.printawallpaper.com/wp-content/uploads/2020/07/offset_curved_squares_d.jpg);
+}
+
+/* #header h2 {
+    background-image: url(https://images.fineartamerica.com/images/artworkimages/medium/3/composition-with-colored-squares-piet-mondrian.jpg);
+} */
+#game div {
+    border: 1px solid black;
+    box-shadow: 5px 10px 5px rgb(63, 62, 62);
+    border-style: outset;
+    width: 20%;
+    height: 210px;
+    margin: 15px;
+    font-size: 100px;
+    padding: 10px;
+    color: white;
+    text-align:center;
+    display: inline-block;
+    vertical-align:top; 
+}
+h1 {
+    font-family: 'Rampart One', cursive;
+    font-size:100px;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+h2 {
+    font-family: 'Gluten', cursive;
+    line-height: 50px;
+    text-align: center;
+}
+#parentwrap { 
+    vertical-align:top; 
+}
+
+button {
+    margin: 20px;
+}
+.card {
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 210px;
+    width: 210px;
+}
+.flipped {
+    background-color: rgb(187, 172, 211) !important;
+}
+.hide {
+    visibility:hidden;
+}
+.match {
+    position:absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.custom-btn {
+    width: 155px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Gluten', cursive;
+    font-size: 15px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+
+.btn-2 {
+    background: rgb(96,9,240);
+    background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+    border: none;
+    
+}
+
+.btn-2:before {
+    height: 0%;
+    width: 2px;
+}
+
+.btn-2:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+  
+  
