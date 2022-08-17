@@ -56,6 +56,9 @@ button {
 }
 .flipped {
     background-color: rgb(187, 172, 211) !important;
+    background-image: url("https://play.nintendo.com/images/PLAY-5104-DCSHGTP-PQ01_1x1-Q6-Purple_v01.a25bebd1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .hide {
     visibility:hidden;
